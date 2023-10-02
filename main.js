@@ -557,6 +557,8 @@ const getCurrentSkhbLayerFilter = () => {
   
 //地点間の距離を計算するモジュール
 //@turf/turfはcdnで読み込み
+const distance = window.turf.distance;
+
 
 const point1 = [140, 40];
 const point2 = [138, 38];
