@@ -373,6 +373,8 @@ const map = new maplibregl.Map({
 
 // OpacityControlの読み込み
 //cdnから読み込み
+const OpacityControl = window["maplibre-gl-opacity"];
+
 
 //OpacityControlの初期化
 map.on('load', () => {
