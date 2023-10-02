@@ -372,8 +372,7 @@ const map = new maplibregl.Map({
 );
 
 // OpacityControlの読み込み
-import OpacityControl from 'maplibre-gl-opacity';
-import 'maplibre-gl-opacity/dist/maplibre-gl-opacity.css';
+//cdnから読み込み
 
 //OpacityControlの初期化
 map.on('load', () => {
