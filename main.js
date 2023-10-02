@@ -1,8 +1,7 @@
 //./main.js
 
 // mapLibre GL JSの読み込み
-import maplibregl from 'maplibre-gl';
-import 'maplibre-gl/dist/maplibre-gl.css';
+// 一旦テキストエディットに移動
 
 
 const map = new maplibregl.Map({
